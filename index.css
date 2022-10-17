@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #075985;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    width: 575px;
+    height: 385px;
+    border-radius: 5%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #9AABD8;
+    
+}
+
+#scoreBgH {
+    background-color: #BE123C; 
+    width: 155px;
+    height: 120px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px 10px;
+    color: #075985;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#scoreBgG {
+    background-color: #BE123C; 
+    width: 155px;
+    height: 120px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px 10px;
+    color: #075985;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.buttons {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+#home-el {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 10px;
+}
+#guest-el {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 10px;
+}
+
+
+.button {
+    color: #9AABD8;
+    background: #075985;
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 10px;
+    font-weight: bold;
+}
